@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
+body{
+	position: relative;
+	width: 100%;
+	height: 1881px;
+	background: #242633;
+	margin: 0;
+}
+
+.first_section{
+	position: absolute;
+	width: 100%;
+	height: 618px;
+	left: 0px;
+	top: 125px;
+	background: url(media_index/img1.png);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.first_section img{
+	position: absolute;
+	width: 640px;
+	height: 134.83px;
+	left: 400px;
+}
+
+.first_section p{
+	position: absolute;
+	width: 672px;
+	height: 198px;
+	left: 384px;
+	top: 156.51px;
+	font-family: Risque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	text-align: center;
+	color: #FAF6F0;
+	text-shadow: 4px 3px 1px #000000;
+}
+
+.second_section{
+	position: absolute;
+	width: 1240px;
+	height: 534px;
+	left: 100px;
+	top: 1012px;
+}
+
+.second_section h2{
+	position: absolute;
+	width: 246px;
+	height: 74px;
+	left: 484px;
+	top: -200px;
+
+	font-family: Risque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 64px;
+	line-height: 74px;
+	/* identical to box height */
+	text-align: center;
+	color: #FAF6F0;
+}
+
+.second_section img{
+	position: absolute;
+	width: 438px;
+	height: 308px;
+	left: 100px;
+	top: 0px;
+}
+
+.second_section #imp{
+	position: absolute;
+	width: 580px;
+	height: 416px;
+	right: 100px;
+	top: -33px;
+
+	font-family: Risque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 32px;
+
+	color: #FAF6F0;
+}
+
+.second_section p{
+	font-family: Risque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 32px;
+	color: #FAF6F0;
+	right: 100px;
+	top: 200px;
+}
+
+#purple{
+	color: #AE0BBC;
+}
+
+nav{
+	position: absolute;
+	width: 1240px;
+	height: 58px;
+	left: 100px;
+	top: 20px;
+	display: grid;
+	columns: 5;
+}
+
+nav img{
+	position: absolute;
+	width: 182px;
+	height: 58px;
+	right: 1158px;
+	left: 100px;
+}
+
+nav ul li{
+
+	list-style-type: none;
+}
+
+nav ul li a{
+	position: absolute;
+	width: 54px;
+	height: 28px;
+	right: 580px;
+
+	font-family: Risque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	/* identical to box height */
+
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+nav ul li a#book{
+	position: absolute;
+	width: 63px;
+	height: 28px;
+	right: 460px;
+
+	font-family: Risque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	/* identical to box height */
+
+	text-decoration: none;
+	color: #FFFFFF;
+}
+nav ul li a#shop{
+	position: absolute;
+	width: 55px;
+	height: 28px;
+	right: 350px;
+
+	font-family: Risque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 28px;
+	/* identical to box height */
+
+	text-decoration: none;
+	color: #FFFFFF;
+}
+nav ul li a#login{
+	position: absolute;
+	width: 182px;
+	height: 38.93px;
+	right: 100px;
+	top: 9px;
+	text-decoration: none;
+	background: #242633;
+	border: 2px solid #595393;
+	border-radius: 5px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+	position: absolute;
+	left: 0px;
+	right: 0%;
+	top: 92.83%;
+	bottom: 0;
+	background-color: black;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+bottom : 0;
+}
+
+footer img{
+	position: absolute;
+	left: 100px;
+	top: 37px;
+}
+
+footer #inp{
+	position: absolute;
+	width: 580px;
+	height: 0px;
+	right: 400px;
+	top: 50px;
+
+
+	font-family: Risque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 32px;
+
+	color: #FAF6F0;
+}
+
+
+i{
+	color: white;
+}
+
+#icons{
+	position: absolute;
+	width: 580px;
+	right: 250px;
+	top: 59px;
+}
+
+.input-group {
+	position: absolute;
+	right: 100px;
+	top: 50px;
+	background-color: #242633;
+	border-radius: 2px;
+	font-family: Risque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 32px;
+	color: white;
+}
+
+.form-control{
+	background-color: #14151D;
+	border-radius: 2px;
+	font-family: Risque;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 28px;
+	line-height: 32px;
+}
+
+.input-group-addon{
+	width: 200px;
+	text-decoration: none;
+
+}
+
